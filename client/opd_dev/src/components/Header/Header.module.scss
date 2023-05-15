@@ -1,0 +1,23 @@
+.navItem {
+  @apply border-b border-b-transparent pb-1 hover:border-b-green-500 transition-all;
+}
+
+.greenLink {
+  @apply hover:text-green-500;
+}
+
+.navButton {
+  @apply text-white font-semibold px-4 py-1 rounded-full transition-colors;
+}
+
+.greenBtn {
+  @apply bg-lime-500 hover:bg-purple-700;
+}
+
+.purpleBtn {
+  @apply bg-purple-700 hover:bg-lime-500;
+}
+
+.whiteBtn {
+  @apply bg-white px-4 py-1 rounded-full hover:bg-lime-500 hover:text-white transition-colors;
+}

@@ -1,0 +1,24 @@
+.table {
+    @apply min-w-full divide-y divide-gray-200;
+}
+
+.table td {
+    @apply px-6 py-4 whitespace-nowrap text-sm text-gray-900;
+}
+
+.table th {
+    @apply px-6 py-3 text-left font-medium uppercase tracking-wider;
+}
+
+
+.table thead {
+    @apply bg-lime-500 text-white;
+}
+
+.table tbody {
+    @apply bg-white divide-y divide-gray-200;
+}
+
+.table tbody tr {
+    @apply hover:bg-lime-100 transition-colors;
+}
