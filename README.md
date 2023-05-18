@@ -3,12 +3,7 @@
 ## Для запуска проекта требуется установить:
 - Node.js:   https://nodejs.org/en
 - Python:    https://www.python.org/downloads/
-- Git:       https://git-scm.com/
-
-## Конфигурация
-Запускаем командную строку, прописываем команды:
-1. Сохранение никнейма `git config --global user.name "your_username"`
-2. Сохранение адреса почты `git config --global user.email "your_email_address@example.com"`
+- Git:       https://git-scm.com/ (инструкция по установке Git доступна по ссылке https://sendel.ru/posts/install-git-windows/)
 
 ## Клонирование проекта
 В командной строке прописываем команду `git clone  https://github.com/krosy1337/Call_analysis_service`
