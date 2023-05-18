@@ -12,7 +12,6 @@
 
 ## Клонирование проекта
 В командной строке прописываем команду `git clone  https://github.com/krosy1337/Call_analysis_service`
-Появится папка с проектом, переходим к созданной директории в командной строке с помощью команды `cd C:\...\Call_analysis_service`
 
 ## Запуск
 1. Переходим к папке client `cd C:\...\Call_analysis_service\client` и прописываем `npm i` для скачивания модулей Node.js
