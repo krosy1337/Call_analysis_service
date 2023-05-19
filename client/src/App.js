@@ -3,7 +3,6 @@ import HomePage from "./pages/HomePage/HomePage"
 import {useEffect, useState} from "react"
 import axios from "axios"
 import Loader from "./components/Loader/Loader"
-import useInterval from "./hooks/useInterval"
 
 const App = () => {
     const [isLoading, setLoading] = useState(true)
@@ -19,8 +18,6 @@ const App = () => {
     useEffect(() => {
         fetchWorkers()
     }, [])
-
-    useInterval(fetchWorkers, 100)
 
     if (isLoading) {
         return (
