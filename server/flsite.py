@@ -54,7 +54,7 @@ configure_uploads(app, audios)
 patch_request_class(app)
 
 class UploadForm(FlaskForm):
-    audio = FileField(validators=[FileAllowed(audios, 'Video only!'),
+    audio = FileField(validators=[FileAllowed(audios, 'Audio only!'),
                       FileRequired('File was empty!')])
     submit = SubmitField('Upload')
 
